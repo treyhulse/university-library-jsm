@@ -5,15 +5,8 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1736086114079,
-      "tag": "0000_common_power_man",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1736086552676,
-      "tag": "0001_real_maximus",
+      "when": 1736091394946,
+      "tag": "0000_left_madrox",
       "breakpoints": true
     }
   ]
