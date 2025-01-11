@@ -1289,7 +1289,7 @@ seed();
 
 ## <a name="links">🔗 Assets</a>
 
-- Assets used in the project can be found [here](https://drive.google.com/file/d/1nlajTtmrjenScsEo4J-Z-ejcQxT2n8b9/view?usp=sharing)
+- Assets used in the project can be found [here](https://drive.google.com/file/d/1Q-Wx1Y5W-0tsHCyWLXQ1oLW8x8fnROy_/view?usp=sharing)
 - [Watch how to Integrate EmailJS](https://youtu.be/kt0FrkQgw8w?feature=shared&t=13792) in Your Website.
 - [Source Code for Integrating EmailJS](https://github.com/adrianhajdin/threejs-portfolio/blob/main/src/sections/Contact.jsx) in any of your codebases. 
 
