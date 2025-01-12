@@ -16,7 +16,7 @@ const {
 
 const authenticator = async () => {
   try {
-    const response = await fetch(`${config.env.apiEndpoint}/api/auth/imagekit`);
+    const response = await fetch(`${config.env.apiEndpoint}/api/imagekit`);
 
     if (!response.ok) {
       const errorText = await response.text();
@@ -172,8 +172,8 @@ const FileUpload = ({
         </div>
       )}
 
-      {file &&
-        (type === "image" ? (
+      {file && file.filePath && (
+        type === "image" ? (
           <IKImage
             alt={file.filePath}
             path={file.filePath}
@@ -186,7 +186,8 @@ const FileUpload = ({
             controls={true}
             className="h-96 w-full rounded-xl"
           />
-        ) : null)}
+        ) : null
+      )}
     </ImageKitProvider>
   );
 };
